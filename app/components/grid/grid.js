@@ -16,12 +16,12 @@ function Placeholder({ size = 20 }) {
 }
 
 export default function Grid({
-  color = "#cacaca",
+  color = "rgba(255, 255, 255, 0.048)",
   size = 20,
   children,
   className,
   style = {
-    backgroundColor: "white",
+    backgroundColor: "#121212",
   },
 }) {
   return (

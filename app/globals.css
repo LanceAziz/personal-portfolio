@@ -1,6 +1,9 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+:root{
+  --dark: #121212;
+  --white: #ffffff;
+  --white_100: rgba(255, 255, 255, 0.048);
+  --scrollbar-thumb-hover: #e0e0e0;
+}
 
 h1,
 h2,
@@ -14,32 +17,25 @@ body {
   padding: 0;
 }
 
-body {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-}
-
 ::selection {
-  background: var(--highlight-bg);
-  color: var(--highlight-text);
+  background: var(--white);
+  color: var(--dark);
 }
 
 ::-webkit-scrollbar {
-  width: 12px;
-  background: var(--scrollbar-track);
+  background: var(--dark);
 }
 
 ::-webkit-scrollbar-thumb {
-  background: var(--scrollbar-thumb);
-  border-radius: 8px;
+  background: var(--white);
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: var(--scrollbar-thumb-hover);
+  background: var( --white_100);
 }
 
 /* For Firefox */
 * {
   scrollbar-width: thin;
-  scrollbar-color: var(--scrollbar-thumb) var(--scrollbar-track);
+  scrollbar-color: var(--white) var(--dark);
 }
