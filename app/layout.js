@@ -1,9 +1,9 @@
 import { Poppins } from "next/font/google";
-import { colors } from "./utils/colors";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Grid from "@/app/components/grid/grid";
-import { globalStyles } from "./globalStyles";
 import "./globals.css";
+import ThemeProvider from "./providers/theme/ThemeProvider";
+import { colors } from "@/app/utils/colors";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -19,15 +19,17 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={globalStyles(colors.black).body}>
-        <Grid
-          className={poppins.className}
-          style={{ backgroundColor: colors.black, color: colors.white, height: "100vh" }}
-          color={colors.white_500}
-        >
+      <body>
+        <ThemeProvider>
+          <Grid
+            className={`${poppins.className}`}
+            style={{ backgroundColor: colors.black, minHeight: "100vh" }}
+            color={colors.white_100}
+          >
           {children}
         </Grid>
-      </body>
-    </html>
+      </ThemeProvider>
+    </body>
+    </html >
   );
 }

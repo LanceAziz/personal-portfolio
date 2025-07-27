@@ -15,5 +15,8 @@ export const colors = {
     dark_white: "#E0E0E0",
     dark_black: "#000000",
 
-    white_500: "#ffffff0b",
+    white_100: "#ffffff0b",
+    white_300: "#ffffff33",
+    
+    transparent: "transparent"
 }
