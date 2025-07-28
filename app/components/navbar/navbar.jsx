@@ -1,7 +1,7 @@
 import React from 'react'
 
 function Navbar() {
-  const navItems = ["Home", "About", "Projects", "Contact"];
+  const navItems = ["About", "Services", "Experince", "Projects", "Testimonials", "Contact"];
   return (
     <div className='pt-4'>
       <div className='d-flex justify-content-center align-items-center'>

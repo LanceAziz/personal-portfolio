@@ -3,7 +3,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "./globals.css";
 import "@fortawesome/fontawesome-svg-core/styles.css";
 import Grid from "@/app/components/grid/grid";
-import Navbar from "./components/navbar/navbar";
+import Navbar from "./components/navbar/navbar.jsx";
 
 const poppins = Poppins({
   variable: "--font-poppins",
