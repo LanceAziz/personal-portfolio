@@ -1,7 +1,7 @@
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInbox } from '@fortawesome/free-solid-svg-icons';
 
-
+export const navItems = ["About", "Services", "Experince", "Projects", "Testimonials", "Contact"];
 export const text = {
     heading: {
         photo: "/images/personal-photo.jpg",

@@ -1,25 +1,29 @@
 "use client";
 import { useState } from 'react';
 import Image from 'next/image';
-import { text } from '@/app/utils/text';
+import { text } from '@/app/utils/data';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import styles from './headingStyles.module.css';
+import { styles } from './headingStyles';
+import Divider from '@/app/components/divider/divider.jsx';
 
 export default function Heading() {
     const [hoveredIndex, setHoveredIndex] = useState(null);
 
     return (
-        <div className='d-flex align-items-center mt-5 text-center gap-5'>
-            <Image
-                src={text.heading.photo}
-                alt="My Photo"
-                width={300}
-                height={300}
-                className='rounded-5'
-            />
-            <div className=''>
+        <div className='row align-items-center mt-1 text-center'>
+            <div className="col-md-5">
+                <Image
+                    src={text.heading.photo}
+                    alt="My Photo"
+                    width={300}
+                    height={300}
+                    className='rounded-5'
+                    style={styles.photo}
+                />
+            </div>
+            <div className='col-md-7 py-4 px-5 d-flex justify-content-center flex-column align-items-center'>
                 <h1 className='fa-4x fw-bold'>{text.heading.name}</h1>
-                <div className="border bt-white my-3"></div>
+                <Divider width='90%'/>
                 <h2>{text.heading.title}</h2>
                 <div className="d-flex justify-content-center gap-4 mt-4">
                     {text.heading.links.map((link, index) => (
@@ -35,7 +39,6 @@ export default function Heading() {
                     ))}
                 </div>
             </div>
-
         </div>
     )
 }
