@@ -4,6 +4,7 @@ import "@fortawesome/fontawesome-svg-core/styles.css";
 import Grid from "@/app/components/grid/grid";
 import Navbar from "./components/navbar/navbar.jsx";
 import { styles } from './layoutStyles.js'
+import "./globals.css";
 
 const poppins = Poppins({
   variable: "--font-poppins",
