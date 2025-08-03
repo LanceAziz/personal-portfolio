@@ -1,6 +1,7 @@
 import Divider from "./components/divider/divider.jsx";
 import About from "./sections/about/about.jsx";
 import Heading from "./sections/heading/heading";
+import Services from "./sections/services/services.jsx";
 
 export default function Home() {
   return (
@@ -8,7 +9,8 @@ export default function Home() {
       <Heading />
       <Divider width="100%" padding="50px" color="transparent" />
       <About />
-      <Divider width="100%" padding="50px" color="transparent"/>
+      <Divider width="100%" padding="50px" color="transparent" />
+      <Services />
     </div>
   );
 }
