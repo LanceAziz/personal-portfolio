@@ -3,8 +3,8 @@ export const styles = {
         width: "100%",
         padding: `${padding} 0`
     }),
-    dividerInner: (width, borderWidth) => ({
+    dividerInner: (width, borderWidth,color) => ({
          width: width,
-         borderTop: `${borderWidth} solid #ffffff41`
+         borderTop: `${borderWidth} solid ${color}`
     })
 }

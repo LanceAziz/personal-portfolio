@@ -6,9 +6,9 @@ export default function Home() {
   return (
     <div style={{ width: '100%', maxWidth: '90ch', padding: '0 20px' }}>
       <Heading />
-      <Divider width="100%" padding="50px" />
+      <Divider width="100%" padding="50px" color="transparent" />
       <About />
-      <Divider width="100%" padding="50px" />
+      <Divider width="100%" padding="50px" color="transparent"/>
     </div>
   );
 }
