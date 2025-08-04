@@ -11,7 +11,7 @@ export const text = {
             {
                 icon: faInbox,
                 label: "Email",
-                url: "lancemohebsamir@gmail.com",
+                url: "mailto:lancemohebsamir@gmail.com",
             },
             {
                 icon: faGithub,

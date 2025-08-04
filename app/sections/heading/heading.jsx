@@ -30,16 +30,18 @@ export default function Heading() {
                         <a
                             key={index}
                             href={link.url}
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className={`text-white d-flex align-items-center text-decoration-none`}
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
-                            <FontAwesomeIcon icon={link.icon} 
-                            style={{
-                                ...styles.icon,
-                                ...(hoveredIndex === index ? styles.iconHover : {})
-                            }} 
-                            size="2x" />
+                            <FontAwesomeIcon icon={link.icon}
+                                style={{
+                                    ...styles.icon,
+                                    ...(hoveredIndex === index ? styles.iconHover : {})
+                                }}
+                                size="2x" />
                         </a>
                     ))}
                 </div>

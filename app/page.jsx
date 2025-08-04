@@ -11,6 +11,7 @@ export default function Home() {
       <About />
       <Divider width="100%" padding="50px" color="transparent" />
       <Services />
+      <Divider width="100%" padding="50px" color="transparent" />
     </div>
   );
 }
