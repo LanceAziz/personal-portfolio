@@ -58,11 +58,11 @@ export const text = {
             {
                 icon: faPenRuler,
                 title: "UI/UX",
-                Description: "Designing intuitive user experiences and interfaces that engage users effectively."
+                Description: "Crafting user-centric interfaces that deliver clarity, consistency, and measurable engagement."
             },
             {
                 icon: faFaceGrinTongue,
-                title: "Animation & Motion Graphics",
+                title: "Animation",
                 Description: "Creating captivating animations and motion graphics for web and mobile applications."
             }
         ]

@@ -23,8 +23,8 @@ export default function Heading() {
             </div>
             <div className='col-md-7 py-4 px-5 d-flex justify-content-center flex-column align-items-center'>
                 <h1 className='fa-4x fw-bold'>{text.heading.name}</h1>
-                <Divider width='90%' borderWidth={"1px"}/>
-                <h2 style={{fontWeight:'lighter'}}>{text.heading.title}</h2>
+                <Divider width='90%' borderWidth={"1px"} />
+                <h2 style={{ fontWeight: 'lighter' }}>{text.heading.title}</h2>
                 <div className="d-flex justify-content-center gap-4 mt-4">
                     {text.heading.links.map((link, index) => (
                         <a
@@ -34,7 +34,12 @@ export default function Heading() {
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
-                            <FontAwesomeIcon icon={link.icon} className={hoveredIndex === index && 'text-light-emphasis'} size="2x" />
+                            <FontAwesomeIcon icon={link.icon} 
+                            style={{
+                                ...styles.icon,
+                                ...(hoveredIndex === index ? styles.iconHover : {})
+                            }} 
+                            size="2x" />
                         </a>
                     ))}
                 </div>
