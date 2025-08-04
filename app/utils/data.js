@@ -66,5 +66,70 @@ export const text = {
                 Description: "Creating captivating animations and motion graphics for web and mobile applications."
             }
         ]
-    }
+    },
+    experience: {
+        title: "Experience & Education",
+        list: [
+            {
+                "title": "Full Stack Developer",
+                "company": "Cypod Solutions",
+                "duration": {
+                    "start": "May 2025",
+                    "end": "Present"
+                },
+                "isCurrent": true,
+                "description": "Contributed to IoT-based B2B solutions by developing and maintaining software to manage physical devices such as Cy-Tag, Cy-Seal, and Cy-Lock. Built and enhanced the Cypod Dashboard using Next.js to provide clients with real-time control and analytics. Developed backend services in Python Flask to handle device operations and business logic. Implemented MQTT broker logic in Node.js, enabling secure communication between IoT devices and the server using topic-based subscriptions. Supported the mobile application using React Native, ensuring seamless integration with device APIs and dashboard features."
+            },
+            {
+                "title": "Android Developer",
+                "company": "Atos",
+                "duration": {
+                    "start": "Oct 2024",
+                    "end": "Jan 2025"
+                },
+                "isCurrent": false,
+                "description": "Developed 'Tweety Tube', a native Android app for movie display using Java, Kotlin, MVVM, clean architecture, and Jetpack Compose, delivering a seamless user experience. Collaborated with integration and backend teams to implement authentication systems. Strengthened skills in Agile methodologies and state management, attending workshops including one led by Philip Lackner."
+            },
+            {
+                "title": "Part-Time Junior Animator",
+                "company": "Squares Smart Solutions",
+                "duration": {
+                    "start": "Dec 2022",
+                    "end": "Jan 2024"
+                },
+                "isCurrent": false,
+                "description": "Collaborated in a dynamic team environment to create both 2D and 3D animated characters and objects. Utilized advanced animation software to develop detailed animations and visual effects. Applied principles of motion graphics and keyframe animation to enhance storytelling."
+            },
+            {
+                "title": "Junior Motion Graphics Trainee",
+                "company": "Kinetics Egypt",
+                "duration": {
+                    "start": "Jul 2021",
+                    "end": "Aug 2021"
+                },
+                "isCurrent": false,
+                "description": "Completed a two-week intensive training program focusing on motion graphics design for social media. Developed and delivered a complete project independently, utilizing tools like Adobe After Effects and Illustrator. Assisted in creating visually appealing posters and animations that aligned with client branding and marketing strategies."
+            },
+            {
+                "title": "IT Trainee",
+                "company": "Saint Fatima Language School",
+                "duration": {
+                    "start": "Jul 2020",
+                    "end": "Oct 2020"
+                },
+                "isCurrent": false,
+                "description": "Diagnosed and repaired hardware and software issues on school computers, ensuring minimal downtime. Managed and maintained the school's network infrastructure, including troubleshooting connectivity issues and optimizing network performance. Provided technical support and training to staff, enabling them to efficiently use software tools to improve workflow and productivity."
+            },
+            {
+                "title": "B.S, Computers and Artificial Intelligence",
+                "company": "Modern University for Technology and Information",
+                "duration": {
+                    "start": "Oct 2020",
+                    "end": "Jul 2024"
+                },
+                "isCurrent": false,
+                "description": "Completed a Bachelor's degree in Computers and Artificial Intelligence with a GPA of 3.13."
+            }
+        ]
+    },
 }
