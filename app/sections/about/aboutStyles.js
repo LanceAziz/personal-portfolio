@@ -4,6 +4,7 @@ export const styles = {
     },
     paragraph: {
         fontWeight: 'lighter',
-        textAlign: 'justify'
+        textAlign: 'justify',
+        paddingBottom: '15px',
     }
 }
