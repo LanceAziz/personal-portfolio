@@ -2,6 +2,7 @@ import Divider from "./components/divider/divider.jsx";
 import About from "./sections/about/about.jsx";
 import Experience from "./sections/experience/experience.jsx";
 import Heading from "./sections/heading/heading";
+import Projects from "./sections/projects/projects.jsx";
 import Services from "./sections/services/services.jsx";
 
 export default function Home() {
@@ -14,6 +15,8 @@ export default function Home() {
       <Services />
       <Divider width="100%" padding="50px" color="transparent" />
       <Experience />
+      <Divider width="100%" padding="50px" color="transparent" />
+      <Projects />
       <Divider width="100%" padding="50px" color="transparent" />
     </div>
   );

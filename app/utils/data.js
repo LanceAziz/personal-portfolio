@@ -122,7 +122,7 @@ export const text = {
             },
             {
                 "title": "B.S, Computers and Artificial Intelligence",
-                "company": "Modern University for Technology and Information",
+                "company": "MTI",
                 "duration": {
                     "start": "Oct 2020",
                     "end": "Jul 2024"
@@ -132,4 +132,26 @@ export const text = {
             }
         ]
     },
+    projects: {
+        title: "Projects",
+        list: [
+            {
+                base: "/images/projects/Gait",
+                photos: [
+                    "/Photo1.png",
+                    "/Photo2.png",
+                    "/Photo3.png",
+                    "/Photo4.png",
+                    "/Photo5.png",
+                    "/Photo6.png",
+                    "/Photo7.png",
+                    "/Photo8.png"
+                ],
+                title: "Gait Recognition System",
+                description: "Developed a human identification system using gait recognition, leveraging computer vision techniques to analyze walking patterns.",
+                technologies: ["Python", "OpenCV","OpenCV","OpenCV", "Machine Learning"],
+                date: "Jul 2024"
+            },
+        ]
+    }
 }

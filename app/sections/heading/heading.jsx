@@ -32,7 +32,7 @@ export default function Heading() {
                             href={link.url}
                             target="_blank"
                             rel="noopener noreferrer"
-                            className={`text-white d-flex align-items-center text-decoration-none`}
+                            className={`text-white d-flex align-items-center cursor-pointer`}
                             onMouseEnter={() => setHoveredIndex(index)}
                             onMouseLeave={() => setHoveredIndex(null)}
                         >
