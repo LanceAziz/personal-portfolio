@@ -12,10 +12,10 @@ export default function Card({ project, index }) {
     };
 
     return (
-        <div onMouseEnter={() => setActiveIndex(index)} onMouseLeave={() => setActiveIndex(null)}>
-            <div className='rounded-4 p-2' style={{ ...styles.card, ...(activeIndex === index ? styles.cardHover : {}) }}>
+        <div style={styles.link} onMouseEnter={() => setActiveIndex(index)} onMouseLeave={() => setActiveIndex(null)}>
+            <div className='rounded-4 p-2 mb-3' style={{ ...styles.card, ...(activeIndex === index ? styles.cardHover : {}) }}>
                 <Image
-                    src={`${project.base}${project.photos[0]}`}
+                    src={project.photo}
                     alt={project.title}
                     width={300}
                     height={300}

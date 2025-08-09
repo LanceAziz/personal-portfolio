@@ -8,7 +8,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 export default function Services() {
     const [activeIndex, setActiveIndex] = useState(null);
     return (
-        <div style={styles.container}>
+        <div id="Services" style={styles.container}>
             <Header title={text.sevices.title} />
             <div className="row">
                 {

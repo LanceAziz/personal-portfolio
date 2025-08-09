@@ -1,7 +1,7 @@
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue } from '@fortawesome/free-solid-svg-icons';
 
-export const navItems = ["About", "Services", "Experince", "Projects", "Testimonials", "Contact"];
+export const navItems = ["About", "Services", "Experience", "Projects", "Testimonials", "Contact"];
 export const text = {
     heading: {
         photo: "/images/personal-photo.jpg",
@@ -136,21 +136,12 @@ export const text = {
         title: "Projects",
         list: [
             {
-                base: "/images/projects/Gait",
-                photos: [
-                    "/Photo1.png",
-                    "/Photo2.png",
-                    "/Photo3.png",
-                    "/Photo4.png",
-                    "/Photo5.png",
-                    "/Photo6.png",
-                    "/Photo7.png",
-                    "/Photo8.png"
-                ],
+                photo: "/images/projects/Gait/Photo1.png",
                 title: "Gait Recognition System",
                 description: "Developed a human identification system using gait recognition, leveraging computer vision techniques to analyze walking patterns.",
-                technologies: ["Python", "OpenCV","OpenCV","OpenCV", "Machine Learning"],
-                date: "Jul 2024"
+                technologies: ["Python", "OpenCV", "Machine Learning"],
+                date: "Jul 2024",
+                link: "https://github.com/LanceAziz/Human-Gait-Identification"
             },
         ]
     }

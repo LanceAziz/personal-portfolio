@@ -4,9 +4,15 @@ import { styles } from './navbarStyles'
 import { navItems } from '@/app/utils/data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-scroll'
+import { useRouter, usePathname } from 'next/navigation'
 
-function Navbar() {
+
+export default function Navbar() {
+  const router = useRouter();
+  const pathname = usePathname();
   const [isOpen, setIsOpen] = useState(false)
+  const [isActive, setIsActive] = useState(null)
 
   useEffect(() => {
     function handleResize() {
@@ -21,6 +27,36 @@ function Navbar() {
     return () => window.removeEventListener('resize', handleResize)
   }, [])
 
+  useEffect(() => {
+    const handleScroll = () => {
+      let found = null;
+      for (let item of navItems) {
+        const section = document.getElementById(item);
+        if (section) {
+          const rect = section.getBoundingClientRect();
+          if (rect.top <= 120 && rect.bottom > 120) {
+            found = item;
+            break;
+          }
+        }
+      }
+      setIsActive(found);
+    };
+
+    window.addEventListener('scroll', handleScroll, { passive: true });
+    handleScroll();
+    return () => window.removeEventListener('scroll', handleScroll);
+  }, [navItems]);
+
+  const handleClick = () => {
+    if (window.innerWidth < 768) {
+      setIsOpen(false)
+    }
+    if (pathname !== '/') {
+      router.push('/')
+    }
+  }
+
   return (
     <nav className="pt-4">
       <div className="container-fluid">
@@ -31,20 +67,20 @@ function Navbar() {
           isOpen && (
             <div className="d-flex flex-column flex-md-row justify-content-center align-items-center gap-2 gap-md-4 py-2 px-2 rounded rounded-5" style={styles.navContainer}>
               {navItems.map((item, index) => (
-                <div
+                <Link
                   key={index}
-                  className="text-white px-3 py-2 rounded rounded-5 cursor-pointer"
-                  style={styles.itemPointer}
+                  onClick={handleClick}
+                  to={item}
+                  offset={-110}
+                  className="text-white px-3 py-2 rounded rounded-5"
+                  style={{ ...styles.navItem, ...(isActive === item ? styles.navItemClick : {}) }}
                 >
                   {item}
-                </div>
+                </Link>
               ))}
             </div>
-          )
-        }
+          )}
       </div>
     </nav>
   )
 }
-
-export default Navbar

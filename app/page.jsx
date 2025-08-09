@@ -1,9 +1,9 @@
 import Divider from "./components/divider/divider.jsx";
-import About from "./sections/about/about.jsx";
-import Experience from "./sections/experience/experience.jsx";
-import Heading from "./sections/heading/heading";
-import Projects from "./sections/projects/projects.jsx";
-import Services from "./sections/services/services.jsx";
+import About from "./(sections)/about/about.jsx";
+import Experience from "./(sections)/experience/experience.jsx";
+import Heading from "./(sections)/heading/heading.jsx";
+import Projects from "./(sections)/projects/projects.jsx";
+import Services from "./(sections)/services/services.jsx";
 
 export default function Home() {
   return (

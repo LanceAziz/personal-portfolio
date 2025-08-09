@@ -17,10 +17,14 @@ export const styles = {
         fontWeight: 'lighter',
         textAlign: 'justify',
     },
-    tag:{
+    tag: {
         fontSize: '0.6rem',
         padding: '0.2rem 0.5rem',
         borderRadius: '0.8rem',
         border: '1px solid #dee2e681',
+    },
+    link: {
+        textDecoration: 'none', 
+        color: 'inherit'
     }
 }

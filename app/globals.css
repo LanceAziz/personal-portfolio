@@ -35,7 +35,6 @@ body {
   background: var( --white_100);
 }
 
-/* For Firefox */
 * {
   scrollbar-width: thin;
   scrollbar-color: var(--white) var(--dark);
