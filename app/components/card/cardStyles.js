@@ -3,16 +3,6 @@ export const styles = {
         width: "100%",
         height: "auto",
     },
-    card: {
-        padding: "10px",
-        borderRadius: "20%",
-        border: '1px solid transparent',
-        cursor: 'pointer'
-    },
-    cardHover: {
-        backgroundColor: '#ffffff16',
-        border: '1px solid #dee2e681',
-    },
     paragraph: {
         fontWeight: 'lighter',
         textAlign: 'justify',
@@ -23,8 +13,4 @@ export const styles = {
         borderRadius: '0.8rem',
         border: '1px solid #dee2e681',
     },
-    link: {
-        textDecoration: 'none', 
-        color: 'inherit'
-    }
 }

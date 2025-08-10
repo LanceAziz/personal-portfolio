@@ -136,12 +136,60 @@ export const text = {
         title: "Projects",
         list: [
             {
-                photo: "/images/projects/Gait/Photo1.png",
-                title: "Gait Recognition System",
-                description: "Developed a human identification system using gait recognition, leveraging computer vision techniques to analyze walking patterns.",
-                technologies: ["Python", "OpenCV", "Machine Learning"],
+                photo: "/images/projects/Photo7.png",
+                title: "Football Live Scoring",
+                description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
+                tags: ["Fullstack", "Frontend", "Backend", "UI/IX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
+                date: "Jul 2025",
+                link: "https://github.com/LanceAziz/Map-Game"
+            },
+            {
+                photo: "/images/projects/Photo6.png",
+                title: "Map Game",
+                description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
+                tags: ["Fullstack", "Frontend", "Backend", "UI/IX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Redux"],
+                date: "Jun 2025",
+                link: "https://github.com/LanceAziz/Map-Game"
+            },
+            {
+                photo: "/images/projects/Photo5.png",
+                title: "Tweety Tube",
+                description: "A native mobile application that manages movies using Jectpack compose.",
+                tags: ["Mobile", "Android", "Java", "Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "UI/IX"],
+                date: "Jan 2025",
+                link: "https://github.com/LanceAziz/tweety-tube"
+            },
+            {
+                photo: "/images/projects/Photo4.png",
+                title: "Queueing System",
+                description: "A fullstack Deployed Website that organize and manage the queue of clients in schools.",
+                tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/IX"],
+                date: "Oct 2024",
+                link: "https://github.com/LanceAziz/queueing-system"
+            },
+            {
+                photo: "/images/projects/Photo3.png",
+                title: "Human Gait Identification",
+                description: "A fullstack Deep learning graduation project that uses the humman pattern of walking as a biometric identifier.",
+                tags: ["Fullstack", "Frontend", "Backend", "DeepLearning", "Computer Vision", "AI", "Next.js", "Flask", "Python", "JavaScript", "UI/IX"],
                 date: "Jul 2024",
                 link: "https://github.com/LanceAziz/Human-Gait-Identification"
+            },
+            {
+                photo: "/images/projects/Photo2.png",
+                title: "Numerical Analysis Calculator",
+                description: "A frontend mini-project that calculates difficult and advance mathematical problems.",
+                tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/IX"],
+                date: "Jun 2023",
+                link: "https://github.com/LanceAziz/Numerical-Analysis-Calculator"
+            },
+            {
+                photo: "/images/projects/Photo1.png",
+                title: "GunShop",
+                description: "A fullstack e-commerce mini-project that sells guns applying CRUD operations.",
+                tags: ["Fullstack", "Frontend", "Backend", "HTML", "CSS", "JavaScript", "PHP"],
+                date: "May 2023",
+                link: "https://github.com/LanceAziz/GunShop"
             },
         ]
     }

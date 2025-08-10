@@ -12,6 +12,7 @@ export default function Projects() {
     const maxCards = text.projects.list.length;
 
     const [showAll, setShowAll] = useState(false);
+    const [activeIndex, setActiveIndex] = useState(null);
 
     const cardsToShow = showAll ? maxCards : minCards;
 
@@ -20,7 +21,7 @@ export default function Projects() {
             <Header title={text.projects.title} />
             <div className='row'>
                 {text.projects.list.slice(0, cardsToShow).map((project, index) => (
-                    <div key={index} className='col-lg-4 col-md-6'>
+                    <div key={index} onMouseEnter={() => setActiveIndex(index)} onMouseLeave={() => setActiveIndex(null)} className='col-lg-4 col-md-6 rounded-4 mb-3' style={{ ...styles.card, ...(activeIndex === index ? styles.cardHover : {}) }}>
                         <Link
                             href={project.link}
                             target="_blank"
