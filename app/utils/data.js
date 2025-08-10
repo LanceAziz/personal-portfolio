@@ -2,6 +2,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue } from '@fortawesome/free-solid-svg-icons';
 
 export const navItems = ["About", "Services", "Experience", "Projects", "Testimonials", "Contact"];
+export const TagFilters = ["All", "FUllstack", "Frontend", "Backend", "Mobile", "UX/UI", "Animation"];
 export const text = {
     heading: {
         photo: "/images/personal-photo.jpg",
