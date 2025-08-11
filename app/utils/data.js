@@ -1,5 +1,6 @@
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue } from '@fortawesome/free-solid-svg-icons';
+import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue, faPhone, faLocationDot, faTrafficLight, faCheck } from '@fortawesome/free-solid-svg-icons';
+import { getCurrentBusyStatus } from './helpers';
 
 export const navItems = ["About", "Services", "Experience", "Projects", "Testimonials", "Contact"];
 export const TagFilters = ["All", "Frontend", "Backend", "Mobile", "AI", "UI/UX", "Animation"];
@@ -196,7 +197,23 @@ export const text = {
     },
     contact: {
         title: "Contact Me",
-        email: "lancemohebsamir@gmail.com",
-        phone: "+201206388842"
+        isBusy: false,
+        details: [
+            {
+                icon: faInbox,
+                title: "Email",
+                value: "lancemohebsamir@gmail.com"
+            },
+            {
+                icon: faPhone,
+                title: "Phone",
+                value: "+201206388842"
+            },
+            {
+                icon: faLocationDot,
+                title: "Location",
+                value: "Cairo, Egypt"
+            }
+        ]
     }
 }
