@@ -2,7 +2,7 @@ import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue } from '@fortawesome/free-solid-svg-icons';
 
 export const navItems = ["About", "Services", "Experience", "Projects", "Testimonials", "Contact"];
-export const TagFilters = ["All", "FUllstack", "Frontend", "Backend", "Mobile", "UX/UI", "Animation"];
+export const TagFilters = ["All", "Fullstack", "Frontend", "Backend", "Mobile", "UI/UX", "Animation"];
 export const text = {
     heading: {
         photo: "/images/personal-photo.jpg",
@@ -140,7 +140,7 @@ export const text = {
                 photo: "/images/projects/Photo7.png",
                 title: "Football Live Scoring",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
-                tags: ["Fullstack", "Frontend", "Backend", "UI/IX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
+                tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
                 date: "Jul 2025",
                 link: "https://github.com/LanceAziz/Map-Game"
             },
@@ -148,7 +148,7 @@ export const text = {
                 photo: "/images/projects/Photo6.png",
                 title: "Map Game",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
-                tags: ["Fullstack", "Frontend", "Backend", "UI/IX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Redux"],
+                tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Redux"],
                 date: "Jun 2025",
                 link: "https://github.com/LanceAziz/Map-Game"
             },
@@ -156,7 +156,7 @@ export const text = {
                 photo: "/images/projects/Photo5.png",
                 title: "Tweety Tube",
                 description: "A native mobile application that manages movies using Jectpack compose.",
-                tags: ["Mobile", "Android", "Java", "Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "UI/IX"],
+                tags: ["Mobile", "Android", "Java", "Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "UI/UX"],
                 date: "Jan 2025",
                 link: "https://github.com/LanceAziz/tweety-tube"
             },
@@ -164,7 +164,7 @@ export const text = {
                 photo: "/images/projects/Photo4.png",
                 title: "Queueing System",
                 description: "A fullstack Deployed Website that organize and manage the queue of clients in schools.",
-                tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/IX"],
+                tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/UX"],
                 date: "Oct 2024",
                 link: "https://github.com/LanceAziz/queueing-system"
             },
@@ -172,7 +172,7 @@ export const text = {
                 photo: "/images/projects/Photo3.png",
                 title: "Human Gait Identification",
                 description: "A fullstack Deep learning graduation project that uses the humman pattern of walking as a biometric identifier.",
-                tags: ["Fullstack", "Frontend", "Backend", "DeepLearning", "Computer Vision", "AI", "Next.js", "Flask", "Python", "JavaScript", "UI/IX"],
+                tags: ["Fullstack", "Frontend", "Backend", "DeepLearning", "Computer Vision", "AI", "Next.js", "Flask", "Python", "JavaScript", "UI/UX"],
                 date: "Jul 2024",
                 link: "https://github.com/LanceAziz/Human-Gait-Identification"
             },
@@ -180,7 +180,7 @@ export const text = {
                 photo: "/images/projects/Photo2.png",
                 title: "Numerical Analysis Calculator",
                 description: "A frontend mini-project that calculates difficult and advance mathematical problems.",
-                tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/IX"],
+                tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/UX"],
                 date: "Jun 2023",
                 link: "https://github.com/LanceAziz/Numerical-Analysis-Calculator"
             },

@@ -8,13 +8,22 @@ import Link from 'next/link';
 import SeeMoreBtn from '@/app/components/seeMoreBtn/seeMoreBtn';
 
 export default function Projects() {
-    const minCards = 3;
-    const maxCards = text.projects.list.length;
-
     const [showAll, setShowAll] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
     const [tag, setTag] = useState(TagFilters[0]);
+    const [searchTerm, setSearchTerm] = useState('');
 
+    const filteredProjects = text.projects.list
+        .filter(project => tag === TagFilters[0] || project.tags?.includes(tag))
+        .filter(project =>
+            project.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            project.date.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            (Array.isArray(project.tags) && project.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))) ||
+            project.description.toLowerCase().includes(searchTerm.toLowerCase())
+        );
+
+    const minCards = 3;
+    const maxCards = filteredProjects.length;
     const cardsToShow = showAll ? maxCards : minCards;
 
     return (
@@ -33,18 +42,24 @@ export default function Projects() {
                                     ...(tag === tagFilter ? styles.tagHover : {})
                                 }}
                             >
-                                <h3 className='fs-6 fw-lighter'>{tagFilter}</h3>
+                                <h3 className='fs-6 fw-lighter px-1'>{tagFilter}</h3>
                             </div>
                         ))
                     }
                 </div>
                 <div className="col-lg-3 d-flex align-items-center p-1">
-                    <input className='w-100 rounded-4 px-3 py-1 border-0' placeholder='Search' type="text" />
+                    <input value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='w-100 rounded-4 px-3 py-1 border-0' placeholder='Search' type="text" />
                 </div>
             </div>
             <div className='row'>
-                {text.projects.list.slice(0, cardsToShow).map((project, index) => (
-                    <div key={index} onMouseEnter={() => setActiveIndex(index)} onMouseLeave={() => setActiveIndex(null)} className='col-lg-4 col-md-6 rounded-4 mb-3' style={{ ...styles.card, ...(activeIndex === index ? styles.cardHover : {}) }}>
+                {filteredProjects.slice(0, cardsToShow).map((project, index) => (
+                    <div
+                        key={index}
+                        onMouseEnter={() => setActiveIndex(index)}
+                        onMouseLeave={() => setActiveIndex(null)}
+                        className='col-lg-4 col-md-6 rounded-4 mb-3'
+                        style={{ ...styles.card, ...(activeIndex === index ? styles.cardHover : {}) }}
+                    >
                         <Link
                             href={project.link}
                             target="_blank"

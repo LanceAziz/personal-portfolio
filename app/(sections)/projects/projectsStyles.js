@@ -22,7 +22,7 @@ export const styles = {
         border: '1px solid #dee2e681',
     },
     tag: {
-        padding: "8px",
+        padding: "5px",
         margin: "0 5px",
         borderRadius: "3rem",
         border: '1px solid transparent',
