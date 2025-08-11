@@ -1,7 +1,11 @@
 "use client"
 import { styles } from './seeMoreBtnStyles';
+import { useProjects } from '@/app/context/projectsContext';
 
-export default function SeeMoreBtn({ showAll, onToggle }) {
+export default function SeeMoreBtn() {
+    const { showAll, setShowAll } = useProjects();
+    const onToggle = () => setShowAll(prev => !prev);
+    
     return (
         <div className='w-100 d-flex flex-column align-items-center'>
             <button

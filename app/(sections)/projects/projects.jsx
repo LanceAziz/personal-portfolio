@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import { useState } from 'react';
 import { text, TagFilters } from '@/app/utils/data';
 import Header from '@/app/components/header/header';
@@ -8,12 +8,11 @@ import Link from 'next/link';
 import SeeMoreBtn from '@/app/components/seeMoreBtn/seeMoreBtn';
 import Filters from '@/app/components/filters/filters';
 import Search from '@/app/components/search/search';
+import { useProjects } from '@/app/context/projectsContext';
 
 export default function Projects() {
-    const [showAll, setShowAll] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
-    const [tag, setTag] = useState(TagFilters[0]);
-    const [searchTerm, setSearchTerm] = useState('');
+    const { showAll, tag, searchTerm } = useProjects();
 
     const filteredProjects = text.projects.list
         .filter(project => tag === TagFilters[0] || project.tags?.includes(tag))
@@ -31,8 +30,8 @@ export default function Projects() {
         <div id="Projects" style={styles.container}>
             <Header title={text.projects.title} />
             <div className='row pb-3'>
-                <Filters tag={tag} setTag={setTag} />
-                <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
+                <Filters />
+                <Search />
             </div>
             <div className='row'>
                 {filteredProjects.slice(0, cardsToShow).map((project, index) => (
@@ -54,10 +53,7 @@ export default function Projects() {
                 ))}
             </div>
             {maxCards > minCards && (
-                <SeeMoreBtn
-                    showAll={showAll}
-                    onToggle={() => setShowAll(prev => !prev)}
-                />
+                <SeeMoreBtn />
             )}
         </div>
     );

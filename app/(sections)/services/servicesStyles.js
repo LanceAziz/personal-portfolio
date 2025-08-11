@@ -6,6 +6,9 @@ export const styles = {
         padding: "10px",
         borderRadius: "20%",
         border: '1px solid transparent',
+        cursor: "pointer",
+        textDecoration: "none",
+        color: "inherit"
     },
     cardHover: {
         backgroundColor: '#ffffff16',

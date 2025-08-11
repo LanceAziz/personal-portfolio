@@ -4,21 +4,24 @@ import Experience from "./(sections)/experience/experience.jsx";
 import Heading from "./(sections)/heading/heading.jsx";
 import Projects from "./(sections)/projects/projects.jsx";
 import Services from "./(sections)/services/services.jsx";
+import { ProjectsProvider } from "./context/projectsContext.jsx";
 
 export default function Home() {
   return (
-    <div style={{ width: '100%', maxWidth: '90ch', padding: '0 20px' }}>
-      <Heading />
-      <Divider width="100%" padding="50px" color="transparent" />
-      <About />
-      <Divider width="100%" padding="50px" color="transparent" />
-      <Services />
-      <Divider width="100%" padding="50px" color="transparent" />
-      <Experience />
-      <Divider width="100%" padding="50px" color="transparent" />
-      <Projects />
-      <Divider width="100%" padding="50px" color="transparent" />
-    </div>
+    <ProjectsProvider>
+      <div style={{ width: '100%', maxWidth: '90ch', padding: '0 20px' }}>
+        <Heading />
+        <Divider width="100%" padding="50px" color="transparent" />
+        <About />
+        <Divider width="100%" padding="50px" color="transparent" />
+        <Services />
+        <Divider width="100%" padding="50px" color="transparent" />
+        <Experience />
+        <Divider width="100%" padding="50px" color="transparent" />
+        <Projects />
+        <Divider width="100%" padding="50px" color="transparent" />
+      </div>
+    </ProjectsProvider>
   );
 }
 

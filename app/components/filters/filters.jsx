@@ -1,7 +1,10 @@
 import { TagFilters } from '@/app/utils/data';
 import { styles } from './filtersStyles';
+import { useProjects } from '@/app/context/projectsContext';
 
-export default function Filters({ tag, setTag }) {
+export default function Filters() {
+    const { tag, setTag } = useProjects();
+    
     return (
         <div className="col-lg-9 d-md-flex justify-content-md-center p-1">
             {
