@@ -1,5 +1,5 @@
 "use client"
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
 import { styles } from './navbarStyles'
 import { navItems } from '@/app/utils/data'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'

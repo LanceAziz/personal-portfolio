@@ -1,5 +1,4 @@
 "use client"
-import React, { useState } from 'react'
 import { styles } from './cardStyles';
 import Image from 'next/image';
 

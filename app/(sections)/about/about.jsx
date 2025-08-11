@@ -1,5 +1,4 @@
 import Header from '@/app/components/header/header'
-import React from 'react'
 import { text } from '@/app/utils/data'
 import { styles } from './aboutStyles'
 

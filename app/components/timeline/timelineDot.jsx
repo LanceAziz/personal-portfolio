@@ -1,4 +1,3 @@
-import React from 'react'
 import { faCircle, faCircleDot } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { styles } from './timelineStyles';

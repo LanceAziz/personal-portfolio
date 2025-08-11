@@ -1,6 +1,6 @@
 "use client"
 import Header from '@/app/components/header/header'
-import React, { useState } from 'react'
+import { useState } from 'react'
 import { text } from '@/app/utils/data'
 import TimelineDots from '@/app/components/timeline/timelineDot'
 import TimelineParagraph from '@/app/components/timeline/timelineParagraph'

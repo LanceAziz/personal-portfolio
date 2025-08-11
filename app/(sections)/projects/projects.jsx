@@ -1,11 +1,13 @@
 "use client";
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { text, TagFilters } from '@/app/utils/data';
 import Header from '@/app/components/header/header';
 import { styles } from './projectsStyles';
 import Card from '@/app/components/card/card';
 import Link from 'next/link';
 import SeeMoreBtn from '@/app/components/seeMoreBtn/seeMoreBtn';
+import Filters from '@/app/components/filters/filters';
+import Search from '@/app/components/search/search';
 
 export default function Projects() {
     const [showAll, setShowAll] = useState(false);
@@ -21,7 +23,6 @@ export default function Projects() {
             (Array.isArray(project.tags) && project.tags.some(tag => tag.toLowerCase().includes(searchTerm.toLowerCase()))) ||
             project.description.toLowerCase().includes(searchTerm.toLowerCase())
         );
-
     const minCards = 3;
     const maxCards = filteredProjects.length;
     const cardsToShow = showAll ? maxCards : minCards;
@@ -29,27 +30,9 @@ export default function Projects() {
     return (
         <div id="Projects" style={styles.container}>
             <Header title={text.projects.title} />
-            <div className='row py-3'>
-                <div className="col-lg-9 d-md-flex justify-content-md-center p-1">
-                    {
-                        TagFilters.map((tagFilter, index) => (
-                            <div
-                                key={index}
-                                onClick={() => setTag(tagFilter)}
-                                className='text-center'
-                                style={{
-                                    ...styles.tag,
-                                    ...(tag === tagFilter ? styles.tagHover : {})
-                                }}
-                            >
-                                <h3 className='fs-6 fw-lighter px-1'>{tagFilter}</h3>
-                            </div>
-                        ))
-                    }
-                </div>
-                <div className="col-lg-3 d-flex align-items-center p-1">
-                    <input value={searchTerm} onChange={(e) => setSearchTerm(e.target.value)} className='w-100 rounded-4 px-3 py-1 border-0' placeholder='Search' type="text" />
-                </div>
+            <div className='row pb-3'>
+                <Filters tag={tag} setTag={setTag} />
+                <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
             </div>
             <div className='row'>
                 {filteredProjects.slice(0, cardsToShow).map((project, index) => (
