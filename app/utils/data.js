@@ -193,5 +193,10 @@ export const text = {
                 link: "https://github.com/LanceAziz/GunShop"
             },
         ]
+    },
+    contact: {
+        title: "Contact Me",
+        email: "lancemohebsamir@gmail.com",
+        phone: "+201206388842"
     }
 }

@@ -5,6 +5,7 @@ import Heading from "./(sections)/heading/heading.jsx";
 import Projects from "./(sections)/projects/projects.jsx";
 import Services from "./(sections)/services/services.jsx";
 import { ProjectsProvider } from "./context/projectsContext.jsx";
+import Contact from "./(sections)/contact/contact.jsx";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
         <Divider width="100%" padding="50px" color="transparent" />
         <Projects />
         <Divider width="100%" padding="50px" color="transparent" />
+        <Contact />
       </div>
     </ProjectsProvider>
   );
