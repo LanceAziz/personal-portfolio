@@ -5,13 +5,11 @@ import { TagFilters } from "@/app/utils/data";
 const ProjectsContext = createContext();
 
 export function ProjectsProvider({ children }) {
-    const [showAll, setShowAll] = useState(false);
     const [tag, setTag] = useState(TagFilters[0]);
     const [searchTerm, setSearchTerm] = useState('');
 
     return (
         <ProjectsContext.Provider value={{
-            showAll, setShowAll,
             tag, setTag,
             searchTerm, setSearchTerm
         }}>

@@ -29,7 +29,7 @@ export default function Experience() {
                 </div>
             ))}
             {maxItems > minItems && (
-                <SeeMoreBtn showAll={showAll} onToggle={() => setShowAll((prev) => !prev)} />
+                <SeeMoreBtn showAll={showAll} setShowAll={setShowAll} />
             )}
         </div>
     );

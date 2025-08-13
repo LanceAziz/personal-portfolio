@@ -1,9 +1,7 @@
 "use client"
 import { styles } from './seeMoreBtnStyles';
-import { useProjects } from '@/app/context/projectsContext';
 
-export default function SeeMoreBtn() {
-    const { showAll, setShowAll } = useProjects();
+export default function SeeMoreBtn({ showAll, setShowAll }) {
     const onToggle = () => setShowAll(prev => !prev);
     
     return (

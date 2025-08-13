@@ -6,7 +6,7 @@ export default function Filters() {
     const { tag, setTag } = useProjects();
     
     return (
-        <div className="col-lg-9 d-md-flex justify-content-md-center p-1">
+        <div className="col-lg-9 d-md-flex justify-content-md-center align-items-center p-1">
             {
                 TagFilters.map((tagFilter, index) => (
                     <div

@@ -13,8 +13,9 @@ import { faAnchor } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default function Projects() {
+    const [showAll, setShowAll] = useState(false);
     const [activeIndex, setActiveIndex] = useState(null);
-    const { showAll, tag, searchTerm } = useProjects();
+    const { tag, searchTerm } = useProjects();
 
     const filteredProjects = text.projects.list
         .filter(project => tag === TagFilters[0] || project.tags?.includes(tag))
@@ -39,7 +40,7 @@ export default function Projects() {
                 {maxCards == 0 ?
                     (
                         <div className='col-12 text-center pt-5'>
-                            <FontAwesomeIcon size='3x' icon={faAnchor}/>
+                            <FontAwesomeIcon size='3x' icon={faAnchor} />
                             <h2 className='fs-6 pt-3'>No Projects Found.</h2>
                         </div>
                     ) :
@@ -62,7 +63,7 @@ export default function Projects() {
                     ))}
             </div>
             {maxCards > minCards && (
-                <SeeMoreBtn />
+                <SeeMoreBtn showAll={showAll} setShowAll={setShowAll} />
             )}
         </div>
     );

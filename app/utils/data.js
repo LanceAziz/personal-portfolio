@@ -1,8 +1,7 @@
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
-import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue, faPhone, faLocationDot, faTrafficLight, faCheck } from '@fortawesome/free-solid-svg-icons';
-import { getCurrentBusyStatus } from './helpers';
+import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, faFaceGrinTongue, faPhone, faLocationDot, faFileLines } from '@fortawesome/free-solid-svg-icons';
 
-export const navItems = ["About", "Services", "Experience", "Projects", "Testimonials", "Contact"];
+export const navItems = ["About", "Services", "Experience", "Projects", "Contact"];
 export const TagFilters = ["All", "Frontend", "Backend", "Mobile", "AI", "UI/UX", "Animation"];
 export const text = {
     heading: {
@@ -25,6 +24,12 @@ export const text = {
                 label: "Linkedin",
                 url: "https://www.linkedin.com/in/lance-aziz-316945316/",
             },
+            {
+                icon: faFileLines,
+                label: "Resume",
+                url: "https://docs.google.com/document/d/14tzhicIfH_qGyoVze6qGKLw4eLjATuHmRNwul2mI5Rw/export?format=pdf",
+            },
+
         ]
     },
     about: {
@@ -197,7 +202,7 @@ export const text = {
     },
     contact: {
         title: "Contact Me",
-        isBusy: false,
+        isBusy: null,
         details: [
             {
                 icon: faInbox,
@@ -213,7 +218,7 @@ export const text = {
                 icon: faLocationDot,
                 title: "Location",
                 value: "Cairo, Egypt"
-            }
+            },
         ]
     }
 }

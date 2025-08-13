@@ -5,6 +5,7 @@ import Grid from "@/app/components/grid/grid";
 import Navbar from "./components/navbar/navbar.jsx";
 import { styles } from './layoutStyles.js'
 import "./globals.css";
+import Footer from "./(sections)/footer/footer.jsx";
 
 const poppins = Poppins({
   variable: "--font-poppins",
@@ -31,6 +32,7 @@ export default function RootLayout({ children }) {
           <div style={styles.homeContainer}>
             {children}
           </div>
+          <Footer />
         </Grid>
       </body>
     </html >

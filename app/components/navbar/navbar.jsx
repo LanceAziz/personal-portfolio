@@ -29,6 +29,11 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
+      // Check if at bottom of page
+      if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 2) {
+        setIsActive("Contact");
+        return;
+      }
       let found = null;
       for (let item of navItems) {
         const section = document.getElementById(item);
