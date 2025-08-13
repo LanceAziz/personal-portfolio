@@ -36,8 +36,8 @@ export default function ContactForm() {
             validate={validate}
             onSubmit={(values, { setSubmitting, resetForm }) => {
                 emailjs.send(
-                    'service_xsbiol9',
-                    'template_nrqfau7',
+                    process.env.NEXT_PUBLIC_EMAILJS_SERVICE_ID,
+                    process.env.NEXT_PUBLIC_EMAILJS_TEMPLATE_ID,
                     {
                         from_name: values.name,
                         from_email: values.email,
@@ -45,7 +45,7 @@ export default function ContactForm() {
                         message: values.message,
                         to_email: myEmail
                     },
-                    'wlpZWkMWO1QzlFRnJ'
+                    process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY
                 ).then(() => {
                     setEmailRes({ status: 200, message: 'Email sent successfully!' });
                     resetForm();
