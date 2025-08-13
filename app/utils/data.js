@@ -3,9 +3,10 @@ import { faInbox, faGlobe, faServer, faMobileScreenButton, faBrain, faPenRuler, 
 
 export const navItems = ["About", "Services", "Experience", "Projects", "Contact"];
 export const TagFilters = ["All", "Frontend", "Backend", "Mobile", "AI", "UI/UX", "Animation"];
+const photoBasePath = "https://raw.githubusercontent.com/LanceAziz/personal-portfolio/refs/heads/main/public/images"
 export const text = {
     heading: {
-        photo: "/images/personal-photo.jpg",
+        photo: `${photoBasePath}/personal-photo.jpg`,
         name: "Lance Aziz",
         title: "Full Stack Developer",
         links: [
@@ -143,7 +144,7 @@ export const text = {
         title: "Projects",
         list: [
             {
-                photo: "/images/projects/Photo7.png",
+                photo: `${photoBasePath}/Projects/Photo7.png`,
                 title: "Football Live Scoring",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
                 tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
@@ -151,7 +152,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Map-Game"
             },
             {
-                photo: "/images/projects/Photo6.png",
+                photo: `${photoBasePath}/Projects/Photo6.png`,
                 title: "Map Game",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
                 tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Redux"],
@@ -159,7 +160,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Map-Game"
             },
             {
-                photo: "/images/projects/Photo5.png",
+                photo: `${photoBasePath}/Projects/Photo5.png`,
                 title: "Tweety Tube",
                 description: "A native mobile application that manages movies using Jectpack compose.",
                 tags: ["Mobile", "Android", "Java", "Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "UI/UX"],
@@ -167,7 +168,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/tweety-tube"
             },
             {
-                photo: "/images/projects/Photo4.png",
+                photo: `${photoBasePath}/Projects/Photo4.png`,
                 title: "Queueing System",
                 description: "A fullstack Deployed Website that organize and manage the queue of clients in schools.",
                 tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/UX"],
@@ -175,7 +176,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/queueing-system"
             },
             {
-                photo: "/images/projects/Photo3.png",
+                photo: `${photoBasePath}/Projects/Photo3.png`,
                 title: "Human Gait Identification",
                 description: "A fullstack Deep learning graduation project that uses the humman pattern of walking as a biometric identifier.",
                 tags: ["Fullstack", "Frontend", "Backend", "DeepLearning", "Computer Vision", "AI", "Next.js", "Flask", "Python", "JavaScript", "UI/UX"],
@@ -183,7 +184,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Human-Gait-Identification"
             },
             {
-                photo: "/images/projects/Photo2.png",
+                photo: `${photoBasePath}/Projects/Photo2.png`,
                 title: "Numerical Analysis Calculator",
                 description: "A frontend mini-project that calculates difficult and advance mathematical problems.",
                 tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/UX"],
@@ -191,7 +192,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Numerical-Analysis-Calculator"
             },
             {
-                photo: "/images/projects/Photo1.png",
+                photo: `${photoBasePath}/Projects/Photo1.png`,
                 title: "GunShop",
                 description: "A fullstack e-commerce mini-project that sells guns applying CRUD operations.",
                 tags: ["Fullstack", "Frontend", "Backend", "HTML", "CSS", "JavaScript", "PHP"],
