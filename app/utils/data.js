@@ -36,7 +36,7 @@ export const text = {
     about: {
         title: "About Me",
         content: {
-            p1: "I'm Lance Aziz, a Full Stack Developer skilled in frontend, backend, and mobile development, with experience using React, Next.js, Flask, Django, Jetpack Compose, and React Native. Alongside my development work, I have a strong foundation in 2D and 3D animation and motion graphics, using tools like Photoshop, After Effects, Illustrator, Adobe Animator, Cinema 4D, and Blender. This blend of creativity and technical skill has fueled my passion for solving complex problems—most notably in my graduation project on human identification using gait recognition.",
+            p1: "I'm Lance Aziz, a Full Stack Developer skilled in frontend, backend, and mobile development, with experience using React, Next.js, Flask, Django, Jetpack Compose, and React Native. Alongside my development work, I have a strong foundation in 2D and 3D animation and motion graphics, using tools like Photoshop, After Effects, Illustrator, Adobe Animator, Cinema 4D, and Blender. This blend of creativity and technical skill has fueled my passion for solving complex problems.",
             p2: "I'm currently expanding my knowledge in AI, exploring advanced applications in machine learning and computer vision. The journey is just beginning—let’s see what the future has in store."
         }
     },
@@ -86,7 +86,7 @@ export const text = {
                     "end": "Present"
                 },
                 "isCurrent": true,
-                "description": "Contributed to IoT-based B2B solutions by developing and maintaining software to manage physical devices such as Cy-Tag, Cy-Seal, and Cy-Lock. Built and enhanced the Cypod Dashboard using Next.js to provide clients with real-time control and analytics. Developed backend services in Python Flask to handle device operations and business logic. Implemented MQTT broker logic in Node.js, enabling secure communication between IoT devices and the server using topic-based subscriptions. Supported the mobile application using React Native, ensuring seamless integration with device APIs and dashboard features."
+                "description": "Contributed to IoT-based B2B solutions by developing and maintaining software to manage physical devices such as Cy-Tag, Cy-Seal, and Cy-Lock. Built and enhanced the Cypod Dashboard using Next.js to provide clients with real-time control and analytics. Developed backend services in Python Flask to handle device operations and business logic. Implemented MQTT broker logic in Node.js, enabling secure communication between IoT devices and the server. Supported the mobile application using React Native, ensuring seamless integration with device APIs and dashboard features."
             },
             {
                 "title": "Android Developer",
@@ -99,7 +99,7 @@ export const text = {
                 "description": "Developed 'Tweety Tube', a native Android app for movie display using Java, Kotlin, MVVM, clean architecture, and Jetpack Compose, delivering a seamless user experience. Collaborated with integration and backend teams to implement authentication systems. Strengthened skills in Agile methodologies and state management, attending workshops including one led by Philip Lackner."
             },
             {
-                "title": "Part-Time Junior Animator",
+                "title": "Junior Animator",
                 "company": "Squares Smart Solutions",
                 "duration": {
                     "start": "Dec 2022",
@@ -109,7 +109,7 @@ export const text = {
                 "description": "Collaborated in a dynamic team environment to create both 2D and 3D animated characters and objects. Utilized advanced animation software to develop detailed animations and visual effects. Applied principles of motion graphics and keyframe animation to enhance storytelling."
             },
             {
-                "title": "Junior Motion Graphics Trainee",
+                "title": "Junior Motion Graphics",
                 "company": "Kinetics Egypt",
                 "duration": {
                     "start": "Jul 2021",
@@ -119,7 +119,7 @@ export const text = {
                 "description": "Completed a two-week intensive training program focusing on motion graphics design for social media. Developed and delivered a complete project independently, utilizing tools like Adobe After Effects and Illustrator. Assisted in creating visually appealing posters and animations that aligned with client branding and marketing strategies."
             },
             {
-                "title": "IT Trainee",
+                "title": "IT Support",
                 "company": "Saint Fatima Language School",
                 "duration": {
                     "start": "Jul 2020",
@@ -147,9 +147,9 @@ export const text = {
                 photo: `${photoBasePath}/Projects/Photo12.png`,
                 title: "Football Live Scoring",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
-                tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
+                tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Firebase"],
                 date: "Jul 2025",
-                link: "https://github.com/LanceAziz/Map-Game"
+                link: "https://github.com/LanceAziz/football-scoring"
             },
             {
                 photo: `${photoBasePath}/Projects/Photo11.png`,
@@ -170,7 +170,7 @@ export const text = {
             {
                 photo: `${photoBasePath}/Projects/Photo9.png`,
                 title: "Queueing System",
-                description: "A fullstack Deployed Website that organize and manage the queue of clients in schools.",
+                description: "A fullstack Deployed Website that organize and manage the queue of clients.",
                 tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/UX"],
                 date: "Oct 2024",
                 link: "https://github.com/LanceAziz/queueing-system"
@@ -186,7 +186,7 @@ export const text = {
             {
                 photo: `${photoBasePath}/Projects/Photo7.png`,
                 title: "Numerical Analysis Calculator",
-                description: "A frontend mini-project that calculates difficult and advance mathematical problems.",
+                description: "A frontend mini-project that calculates difficult and advanced mathematical problems.",
                 tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/UX"],
                 date: "Jun 2023",
                 link: "https://github.com/LanceAziz/Numerical-Analysis-Calculator"
