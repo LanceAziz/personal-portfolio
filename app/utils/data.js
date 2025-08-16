@@ -199,6 +199,46 @@ export const text = {
                 date: "May 2023",
                 link: "https://github.com/LanceAziz/GunShop"
             },
+            {
+                photo: `${photoBasePath}/Projects/Photo1.png`,
+                title: "Holy Week",
+                description: "A 2D animated hymn broadcasted on TV during Holy Week.",
+                tags: ["Animation", "2D", "Illustration","Illustrator", "After Effects"],
+                date: "Apr 2023",
+                link: "https://www.behance.net/gallery/168087339/Project-Illustration-Holy-Week-2023"
+            },
+            {
+                photo: `${photoBasePath}/Projects/Photo1.png`,
+                title: "Debo",
+                description: "A 2D animated show series designed for kids, where a cartoon character interacts live with a person to share fun and meaningful life lessons.",
+                tags: ["Animation", "2D", "Character Design", "Illustration", "Rigging", "Illustrator", "After Effects", "Character Animator"],
+                date: "Jan 2023",
+                link: "https://www.behance.net/gallery/167985119/Project-Illustration-Debo"
+            },
+            {
+                photo: `${photoBasePath}/Projects/Photo1.png`,
+                title: "Wakko",
+                description: "Produced a live animated experience for kids, featuring real-time interaction with a cartoon character designed to entertain and engage young audiences.",
+                tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes","Apple AR Kit", "Blender", "Unreal Engine"],
+                date: "Dec 2022",
+                link: "https://www.behance.net/gallery/167989191/Project-3D-14"
+            },
+            {
+                photo: `${photoBasePath}/Projects/Photo1.png`,
+                title: "Mello",
+                description: "Prototype Test, featuring real-time interaction with a cartoon character designed to entertain and engage young audiences.",
+                tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes", "Blender"],
+                date: "Aug 2022",
+                link: "https://www.behance.net/gallery/167988683/Project-3D-11"
+            },
+            {
+                photo: `${photoBasePath}/Projects/Photo1.png`,
+                title: "Remy the rat",
+                description: "Created a captivating short animated movie, blending storytelling and visual effects to deliver an engaging cinematic experience.",
+                tags: ["Animation", "3D", "Modeling", "Texturing", "Rigging", "Blender"],
+                date: "May 2020",
+                link: "https://www.behance.net/gallery/167989191/Project-3D-14"
+            },
         ]
     },
     contact: {
