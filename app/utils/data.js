@@ -144,7 +144,7 @@ export const text = {
         title: "Projects",
         list: [
             {
-                photo: `${photoBasePath}/Projects/Photo7.png`,
+                photo: `${photoBasePath}/Projects/Photo12.png`,
                 title: "Football Live Scoring",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
                 tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "Java", "App Scripts", "JavaScript", "Firebase"],
@@ -152,7 +152,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Map-Game"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo6.png`,
+                photo: `${photoBasePath}/Projects/Photo11.png`,
                 title: "Map Game",
                 description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
                 tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Redux"],
@@ -160,7 +160,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Map-Game"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo5.png`,
+                photo: `${photoBasePath}/Projects/Photo10.png`,
                 title: "Tweety Tube",
                 description: "A native mobile application that manages movies using Jectpack compose.",
                 tags: ["Mobile", "Android", "Java", "Kotlin", "Jetpack Compose", "MVVM", "Clean Architecture", "UI/UX"],
@@ -168,7 +168,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/tweety-tube"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo4.png`,
+                photo: `${photoBasePath}/Projects/Photo9.png`,
                 title: "Queueing System",
                 description: "A fullstack Deployed Website that organize and manage the queue of clients in schools.",
                 tags: ["Fullstack", "Frontend", "Backend", "Next.js", "Tailwind", "Python", "Django", "JWT", "MySQL", "Docker", "TTS", "JavaScript", "Embedded Systems", "UI/UX"],
@@ -176,7 +176,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/queueing-system"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo3.png`,
+                photo: `${photoBasePath}/Projects/Photo8.png`,
                 title: "Human Gait Identification",
                 description: "A fullstack Deep learning graduation project that uses the humman pattern of walking as a biometric identifier.",
                 tags: ["Fullstack", "Frontend", "Backend", "DeepLearning", "Computer Vision", "AI", "Next.js", "Flask", "Python", "JavaScript", "UI/UX"],
@@ -184,7 +184,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Human-Gait-Identification"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo2.png`,
+                photo: `${photoBasePath}/Projects/Photo7.png`,
                 title: "Numerical Analysis Calculator",
                 description: "A frontend mini-project that calculates difficult and advance mathematical problems.",
                 tags: ["Frontend", "Algorithms", "HTML", "Bootstrap", "JavaScript", "Math.js", "UI/UX"],
@@ -192,7 +192,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/Numerical-Analysis-Calculator"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo1.png`,
+                photo: `${photoBasePath}/Projects/Photo6.png`,
                 title: "GunShop",
                 description: "A fullstack e-commerce mini-project that sells guns applying CRUD operations.",
                 tags: ["Fullstack", "Frontend", "Backend", "HTML", "CSS", "JavaScript", "PHP"],
@@ -200,7 +200,7 @@ export const text = {
                 link: "https://github.com/LanceAziz/GunShop"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo1.png`,
+                photo: `${photoBasePath}/Projects/Photo5.png`,
                 title: "Holy Week",
                 description: "A 2D animated hymn broadcasted on TV during Holy Week.",
                 tags: ["Animation", "2D", "Illustration","Illustrator", "After Effects"],
@@ -208,7 +208,7 @@ export const text = {
                 link: "https://www.behance.net/gallery/168087339/Project-Illustration-Holy-Week-2023"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo1.png`,
+                photo: `${photoBasePath}/Projects/Photo4.png`,
                 title: "Debo",
                 description: "A 2D animated show series designed for kids, where a cartoon character interacts live with a person to share fun and meaningful life lessons.",
                 tags: ["Animation", "2D", "Character Design", "Illustration", "Rigging", "Illustrator", "After Effects", "Character Animator"],
@@ -216,7 +216,7 @@ export const text = {
                 link: "https://www.behance.net/gallery/167985119/Project-Illustration-Debo"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo1.png`,
+                photo: `${photoBasePath}/Projects/Photo3.png`,
                 title: "Wakko",
                 description: "Produced a live animated experience for kids, featuring real-time interaction with a cartoon character designed to entertain and engage young audiences.",
                 tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes","Apple AR Kit", "Blender", "Unreal Engine"],
@@ -224,7 +224,7 @@ export const text = {
                 link: "https://www.behance.net/gallery/167989191/Project-3D-14"
             },
             {
-                photo: `${photoBasePath}/Projects/Photo1.png`,
+                photo: `${photoBasePath}/Projects/Photo2.png`,
                 title: "Mello",
                 description: "Prototype Test, featuring real-time interaction with a cartoon character designed to entertain and engage young audiences.",
                 tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes", "Blender"],
