@@ -146,7 +146,7 @@ export const text = {
             {
                 photo: `${photoBasePath}/Projects/Photo12.png`,
                 title: "Football Live Scoring",
-                description: "A fullstack website that simulates a game of winning coutries by answering questions about them.",
+                description: "A fullstack website that lets users simulate live football matches.",
                 tags: ["Fullstack", "Frontend", "Backend", "UI/UX", "Next.js", "Bootstrap", "App Scripts", "JavaScript", "Firebase"],
                 date: "Jul 2025",
                 link: "https://github.com/LanceAziz/football-scoring"
