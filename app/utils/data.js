@@ -86,7 +86,12 @@ export const text = {
                     "end": "Present"
                 },
                 "isCurrent": true,
-                "description": "Contributed to IoT-based B2B solutions by developing and maintaining software to manage physical devices such as Cy-Tag, Cy-Seal, and Cy-Lock. Built and enhanced the Cypod Dashboard using Next.js to provide clients with real-time control and analytics. Developed backend services in Python Flask to handle device operations and business logic. Implemented MQTT broker logic in Node.js, enabling secure communication between IoT devices and the server. Supported the mobile application using React Native, ensuring seamless integration with device APIs and dashboard features."
+                "description": [
+                    "Built and scaled full-stack solutions by developing a Next.js web dashboard for real-time control, analytics, and reporting, alongside backend services primarily in Python (Flask) and selected services in Golang, handling business logic, device operations, authentication, and integrations, with performance optimization through Redis-based caching.",
+                    "Designed and implemented Pub/Sub–based, event-driven architectures to decouple services and improve scalability, leveraging MQTT topic-based communication implemented using Node.js and Golang for real-time IoT messaging, Apache Kafka for high-throughput event streaming between services, and RabbitMQ with Celery for reliable asynchronous processing and background job execution.",
+                    "Took ownership of the mobile application built with React Native, leading feature development, API integration, bug fixing, and production readiness, and successfully deployed ETIT2GO to both the Apple App Store and Google Play Store, managing build pipelines, configurations, store compliance, and release cycles.",
+                    "Took responsibility for DevOps and production infrastructure, managing Docker images on physical (on-premise) machines, including offline image distribution and deployment workflows, and implementing centralized logging and observability using Grafana Loki to support monitoring, debugging, and system stability in production environments."
+                ]
             },
             {
                 "title": "Android Developer",
@@ -96,17 +101,25 @@ export const text = {
                     "end": "Jan 2025"
                 },
                 "isCurrent": false,
-                "description": "Developed 'Tweety Tube', a native Android app for movie display using Java, Kotlin, MVVM, clean architecture, and Jetpack Compose, delivering a seamless user experience. Collaborated with integration and backend teams to implement authentication systems. Strengthened skills in Agile methodologies and state management, attending workshops including one led by Philip Lackner."
+                "description": [
+                    "Developed \"Tweety Tube\", a native Android app for movie display using Java, Kotlin, MVVM, clean architecture, and Jetpack Compose, delivering a seamless user experience.",
+                    "Collaborated with integration and backend teams to implement authentication systems.", 
+                    "Strengthened skills in Agile methodologies and state management, attending workshops including one led by Philip Lackner."
+                ]
             },
             {
                 "title": "Junior Animator",
-                "company": "Squares Smart Solutions",
+                "company": "Squares for media production",
                 "duration": {
                     "start": "Dec 2022",
                     "end": "Jan 2024"
                 },
                 "isCurrent": false,
-                "description": "Collaborated in a dynamic team environment to create both 2D and 3D animated characters and objects. Utilized advanced animation software to develop detailed animations and visual effects. Applied principles of motion graphics and keyframe animation to enhance storytelling."
+                "description": [
+                    "3-month virtual internship with Pixar (online due to COVID-19) focused on character animation and motion design.", 
+                    "Created 2D & 3D characters and assets using Photoshop, Illustrator, Blender, and Cinema 4D.", 
+                    "Produced animations and motion graphics with After Effects and Character Animator using keyframe animation."
+                ]
             },
             {
                 "title": "Junior Motion Graphics",
@@ -116,21 +129,28 @@ export const text = {
                     "end": "Aug 2021"
                 },
                 "isCurrent": false,
-                "description": "Completed a two-week intensive training program focusing on motion graphics design for social media. Developed and delivered a complete project independently, utilizing tools like Adobe After Effects and Illustrator. Assisted in creating visually appealing posters and animations that aligned with client branding and marketing strategies."
+                "description": [
+                    "Completed a two-week intensive training program focusing on motion graphics design for social media.",
+                    "Developed and delivered a complete project independently, utilizing tools like Adobe After Effects and Illustrator.", 
+                    "Assisted in creating visually appealing posters and animations that aligned with client branding and marketing strategies."
+                ]
             },
             {
-                "title": "IT Support",
+                "title": "Network Engineer",
                 "company": "Saint Fatima Language School",
                 "duration": {
                     "start": "Jul 2020",
                     "end": "Oct 2020"
                 },
                 "isCurrent": false,
-                "description": "Diagnosed and repaired hardware and software issues on school computers, ensuring minimal downtime. Managed and maintained the school's network infrastructure, including troubleshooting connectivity issues and optimizing network performance. Provided technical support and training to staff, enabling them to efficiently use software tools to improve workflow and productivity."
+                "description": [
+                    "Diagnosed and repaired hardware/software issues on school computers, minimizing downtime." ,
+                    "Managed the school's network (routers, switches, Wi-Fi, LAN/WAN) using knowledge from Cisco Networking Fundamentals."
+                ]
             },
             {
                 "title": "B.S, Computers and Artificial Intelligence",
-                "company": "MTI",
+                "company": "Modern university for technology and information (MTI)",
                 "duration": {
                     "start": "Oct 2020",
                     "end": "Jul 2024"
@@ -203,7 +223,7 @@ export const text = {
                 photo: `${photoBasePath}/Projects/Photo5.png`,
                 title: "Holy Week",
                 description: "A 2D animated hymn broadcasted on TV during Holy Week.",
-                tags: ["Animation", "2D", "Illustration","Illustrator", "After Effects"],
+                tags: ["Animation", "2D", "Illustration", "Illustrator", "After Effects"],
                 date: "Apr 2023",
                 link: "https://www.behance.net/gallery/168087339/Project-Illustration-Holy-Week-2023"
             },
@@ -219,7 +239,7 @@ export const text = {
                 photo: `${photoBasePath}/Projects/Photo3.png`,
                 title: "Wakko",
                 description: "Produced a live animated experience for kids, featuring real-time interaction with a cartoon character designed to entertain and engage young audiences.",
-                tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes","Apple AR Kit", "Blender", "Unreal Engine"],
+                tags: ["Animation", "3D", "Character Design", "Modeling", "Texturing", "Rigging", "Morph shapes", "Apple AR Kit", "Blender", "Unreal Engine"],
                 date: "Dec 2022",
                 link: "https://www.behance.net/gallery/167989191/Project-3D-14"
             },
