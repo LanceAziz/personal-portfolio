@@ -7,11 +7,11 @@ export default function TimelineParagraph({ exp }) {
             <h3 className='pt-2'>{exp.title}</h3>
             <h4 className='fw-lighter fs-4'>{exp.company}</h4>
             {Array.isArray(exp.description) ? (
-                <ul className='py-2 ps-3'>
+                <ol className='py-2 ps-3'>
                     {exp.description.map((point, index) => (
                         <li key={index}>{point}</li>
                     ))}
-                </ul>
+                </ol>
             ) : (
                 <p className='py-2'>{exp.description}</p>
             )}
