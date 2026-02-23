@@ -1,6 +1,8 @@
 import { Poppins } from "next/font/google";
 import "bootstrap/dist/css/bootstrap.min.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
 import "@fortawesome/fontawesome-svg-core/styles.css";
+config.autoAddCss = false;
 import Grid from "@/app/components/grid/grid";
 import Navbar from "./components/navbar/navbar.jsx";
 import { styles } from './layoutStyles.js'
@@ -21,7 +23,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body style={styles.body}>
+      <body style={styles.body} suppressHydrationWarning>
         <Grid
           className={`${poppins.className}`}
           style={styles.grid}

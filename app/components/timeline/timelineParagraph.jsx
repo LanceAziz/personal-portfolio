@@ -9,11 +9,11 @@ export default function TimelineParagraph({ exp }) {
             {Array.isArray(exp.description) ? (
                 <ol className='py-2 ps-3'>
                     {exp.description.map((point, index) => (
-                        <li key={index}>{point}</li>
+                        <li key={index} suppressHydrationWarning dangerouslySetInnerHTML={{ __html: point }} />
                     ))}
                 </ol>
             ) : (
-                <p className='py-2'>{exp.description}</p>
+                <p className='py-2' suppressHydrationWarning dangerouslySetInnerHTML={{ __html: exp.description }} />
             )}
         </div>
     )

@@ -87,10 +87,10 @@ export const text = {
                 },
                 "isCurrent": true,
                 "description": [
-                    "Built and scaled full-stack solutions by developing a Next.js web dashboard for real-time control, analytics, and reporting, alongside backend services primarily in Python (Flask) and selected services in Golang, handling business logic, device operations, authentication, and integrations, with performance optimization through Redis-based caching.",
-                    "Designed and implemented Pub/Sub–based, event-driven architectures to decouple services and improve scalability, leveraging MQTT topic-based communication implemented using Node.js and Golang for real-time IoT messaging, Apache Kafka for high-throughput event streaming between services, and RabbitMQ with Celery for reliable asynchronous processing and background job execution.",
-                    "Took ownership of the mobile application built with React Native, leading feature development, API integration, bug fixing, and production readiness, and successfully deployed ETIT2GO to both the Apple App Store and Google Play Store, managing build pipelines, configurations, store compliance, and release cycles.",
-                    "Took responsibility for DevOps and production infrastructure, managing Docker images on physical (on-premise) machines, including offline image distribution and deployment workflows, and implementing centralized logging and observability using Grafana Loki to support monitoring, debugging, and system stability in production environments."
+                    "Built and scaled full-stack solutions by developing a <b>Next.js</b> web dashboard for real-time control, analytics, and reporting, alongside backend services primarily in <b>Python (Flask)</b> and selected services in <b>Golang</b>, handling business logic, device operations, authentication, and integrations, with performance optimization through <b>Redis-based caching</b>.",
+                    "Designed and implemented <b>Pub/Sub–based, event-driven architectures</b> to decouple services and improve scalability, leveraging <b>MQTT</b> topic-based communication implemented using <b>Node.js</b> and <b>Golang</b> for real-time IoT messaging, <b>Apache Kafka</b> for high-throughput event streaming between services, and <b>RabbitMQ</b> with <b>Celery</b> for reliable asynchronous processing and background job execution.",
+                    "Took ownership of the mobile application built with <b>React Native</b>, leading feature development, API integration, bug fixing, and production readiness, and successfully deployed ETIT2GO to both the <a href=\"https://apps.apple.com/eg/app/etit2go/id6751882502\" target=\"_blank\" rel=\"noopener noreferrer\">Apple App Store</a> and <a href=\"https://play.google.com/store/apps/details?id=com.cyfleet&hl=ar\" target=\"_blank\" rel=\"noopener noreferrer\">Google Play Store</a>, managing build pipelines, configurations, store compliance, and release cycles.",
+                    "Took responsibility for <b>DevOps and production infrastructure</b>, managing <b>Docker</b> images on physical (on-premise) machines, including offline image distribution and deployment workflows, and implementing centralized logging and observability using <b>Grafana Loki</b> to support monitoring, debugging, and system stability in production environments."
                 ]
             },
             {
@@ -102,9 +102,9 @@ export const text = {
                 },
                 "isCurrent": false,
                 "description": [
-                    "Developed \"Tweety Tube\", a native Android app for movie display using Java, Kotlin, MVVM, clean architecture, and Jetpack Compose, delivering a seamless user experience.",
-                    "Collaborated with integration and backend teams to implement authentication systems.", 
-                    "Strengthened skills in Agile methodologies and state management, attending workshops including one led by Philip Lackner."
+                    "Developed \"Tweety Tube\", a native Android app for movie display using <b>Java</b>, <b>Kotlin</b>, <b>MVVM</b>, <b>clean architecture</b>, and <b>Jetpack Compose</b>, delivering a seamless user experience.",
+                    "Collaborated with integration and backend teams to implement authentication systems.",
+                    "Strengthened skills in Agile methodologies and state management, <u>attending workshops including one led by Philip Lackner.</u>"
                 ]
             },
             {
@@ -116,9 +116,9 @@ export const text = {
                 },
                 "isCurrent": false,
                 "description": [
-                    "3-month virtual internship with Pixar (online due to COVID-19) focused on character animation and motion design.", 
-                    "Created 2D & 3D characters and assets using Photoshop, Illustrator, Blender, and Cinema 4D.", 
-                    "Produced animations and motion graphics with After Effects and Character Animator using keyframe animation."
+                    "<u>3-month virtual internship with Pixar</u> (online due to COVID-19) focused on character animation and motion design.",
+                    "Created 2D & 3D characters and assets using <b>Photoshop</b>, <b>Illustrator</b>, <b>Blender</b>, and <b>Cinema 4D</b>.",
+                    "Produced animations and motion graphics with <b>After Effects</b> and <b>Character Animator</b> using keyframe animation."
                 ]
             },
             {
@@ -131,7 +131,7 @@ export const text = {
                 "isCurrent": false,
                 "description": [
                     "Completed a two-week intensive training program focusing on motion graphics design for social media.",
-                    "Developed and delivered a complete project independently, utilizing tools like Adobe After Effects and Illustrator.", 
+                    "Developed and delivered a complete project independently, utilizing tools like Adobe <b>After Effects</b> and <b>Illustrator</b>.",
                     "Assisted in creating visually appealing posters and animations that aligned with client branding and marketing strategies."
                 ]
             },
@@ -144,8 +144,8 @@ export const text = {
                 },
                 "isCurrent": false,
                 "description": [
-                    "Diagnosed and repaired hardware/software issues on school computers, minimizing downtime." ,
-                    "Managed the school's network (routers, switches, Wi-Fi, LAN/WAN) using knowledge from Cisco Networking Fundamentals."
+                    "Diagnosed and repaired hardware/software issues on school computers, minimizing downtime.",
+                    "Managed the school's network (routers, switches, Wi-Fi, LAN/WAN) using knowledge from <b>Cisco Networking Fundamentals</b>."
                 ]
             },
             {
@@ -156,7 +156,7 @@ export const text = {
                     "end": "Jul 2024"
                 },
                 "isCurrent": false,
-                "description": "Completed a Bachelor's degree in Computers and Artificial Intelligence with a GPA of 3.13."
+                "description": "Completed a Bachelor's degree in Computers and Artificial Intelligence with a <b>GPA of 3.13</b>, including my graduation project: <a href=\"https://github.com/LanceAziz/Human-Gait-Identification\" target=\"_blank\" rel=\"noopener noreferrer\">Human Gait Identification</a>."
             }
         ]
     },
